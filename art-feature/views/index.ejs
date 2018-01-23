@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h3>//Here's some art//</h3>
+    <ul>
+      <% for(var key in questions) { %>
+        <li>
+          <a href="/trivia/<%= key %>">
+            <%= questions[key]["question"] %>
+          </a>
+        </li>
+      <% } %>
+    </ul>
+    <div id="container"
+    <div class="column">
+    <img src = '/images/blue.jpg' width="500" alt="Blue-haired elf"/>
+    <img src = '/images/midna.jpg' width="500"alt="Midna from LoZ"/>
+    <img src = '/images/splatoon.jpg' width="500"alt="Splatoon inkling"/>
+  </div>
+    <div class-"row">
+    <img src = '/images/prompto.jpg' width="500"alt="Prompto from FFXV"/>
+    <img src = '/images/2b.jpg' width="500"alt="2b from Nier Automata"/>
+    <img src = '/images/kairi.jpg' width="500"alt="Kairi from KH"/>
+  </div>
+</div>
+  </body>
+</html>
