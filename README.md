@@ -1,4 +1,1 @@
-# Personal
-# Personal
-"# battleshipChallenge"
-# battleshipChallenge
+These are my personal projects.
